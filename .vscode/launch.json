@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "My Container (BC27)",
+            "server": "http://BC27",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "tenant": "default",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize",
+        }
+    ]
+}
